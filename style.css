@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(22, 22, 22);
+
+}
+
+
+li,
+a,
+.nav_btn,
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    color: beige;
+}
+
+.nav_Header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 1.4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1.4rem;
+    position:sticky;
+}
+
+.LK {
+    cursor: pointer;
+    display: flex;
+    margin-right: auto;
+}
+.listitem li{
+display: inline-block;
+padding: 0rem 1.3rem;
+}
+.listitem li a{
+transition:all 0.5s ease 0s;
+    }
+.listitem li a:hover{
+    color: rgba(0, 204, 255, 0.61);
+}
+        
+.nav_btn{
+    margin-left: 1rem;
+    padding: 08px;
+    background-color: rgba(0, 204, 255, 0.61);
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.nav_btn:hover{
+background-color: azure;
+color: black;
+}
+@media only screen and (max-width: 800px) {
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        font-size: 1rem;
+    }
+    .page_container {
+        background-image:url("1.jpg");
+        background-size: cover;
+        height: 100vh;
+    }
+    .nav_Header {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .nav_btn{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        padding: 11px;
+        background-color: rgba(0, 204, 255, 0.61);
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+    }
+    .nav_btn:hover{
+    background-color: azure;
+    color: black;
+    }
+    .LK {
+        cursor: pointer;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+}
+@media only screen and (max-width: 550px) {
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        font-size: 0.8rem;
+    }
+    .page_container {
+        background-image:url("1.jpg");
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .nav_Header {
+       
+        display: flex;
+        flex-direction: column;
+        flex:2;        
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .nav_btn{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        padding: 11px;
+        background-color: rgba(0, 204, 255, 0.61);
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+    }
+    .nav_btn:hover{
+    background-color: azure;
+    color: black;
+    }
+    .LK {
+        cursor: pointer;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        font-size: 0.6rem;
+    }
+    .page_container {
+        background-image:url("1.jpg");
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .nav_Header {
+       
+        display: flex;
+        flex-direction: column;
+        flex:2;        
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .nav_btn{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        padding: 11px;
+        background-color: rgba(0, 204, 255, 0.61);
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+    }
+    .nav_btn:hover{
+    background-color: azure;
+    color: black;
+    }
+    .LK {
+        cursor: pointer;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+}

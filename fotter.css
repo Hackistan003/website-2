@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.link
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.link a{
+    transition: all 0.5s ease 0s;
+}
+.link a:hover{
+color: aqua;
+    
+}
+.Emails{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: -0.5rem;
+    color: white;
+}
+.number{
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
+    color: white;
+}
+.home{
+    padding-top:2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
+    color: white;
+}
+.rights{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1rem;
+    color: white;
+}
+

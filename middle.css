@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.Wel {
+    color: beige;
+}
+
+.Wel1 {
+    color: rgb(0, 217, 255);
+    font-size: 3rem;
+    transition:all 0.5s ease 0s ;
+    cursor: pointer;
+}
+.Wel1:hover {
+    color: rgb(0, 140, 255);
+    font-size: 3rem;
+}
+
+
+.mid_btn {
+    margin-left: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 204, 255, 0.61);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    color: white;
+    
+}
+
+.mid_btn:hover {
+    background-color: azure;
+    color: black;
+}
+
+.page_container {
+    display: flex;
+    background-image:url("1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    position: sticky;
+}
+
+.headings {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+.overlay{
+    width: 100%;
+    background-color: rgba(0, 153, 255, 0.219);
+}
+
+@media only screen and (max-width: 800px) {
+   
+
+    .headings {
+        margin-top: 10rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.SerAvail_1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+        color: white;
+        background-color: rgba(0, 153, 255, 0.219);
+        }
+    .Available{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+        gap: 3rem;
+        background-color: rgba(0, 153, 255, 0.219);
+    }
+    .beta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        flex: 1;
+        padding: 3rem;
+        border: 3px white;
+        box-shadow: 0px 0px 10px rgba(0, 217, 255, 0.623);
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+        gap: 1rem;
+        color: white;
+    }
+    .beta:hover{
+        text-transform: uppercase;
+    }
+    .beta i{
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+    }
